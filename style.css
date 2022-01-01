@@ -102,20 +102,6 @@ body {
     border: var(--border-width) solid var(--main-color);
 }
 
-.fancy-cursor {
-    position: absolute;
-    top: calc(100% + var(--border-width));
-    left: 90%;
-    z-index: 2;
-
-    min-width: 2em;
-    min-height: 2em;
-    background-color: lime;
-    border-radius: 0 50% 50% 50%;
-
-    transform: rotate(15deg)
-}
-
 .card__fill {
     grid-column: 2 / 4;
     grid-row: 2 / 4;
